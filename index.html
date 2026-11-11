@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aníbal Ventura - Software Engineer</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <span class="terminal-symbol">&gt;_</span>
+        <span class="brand-name">Aníbal Ventura</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home" class="nav-link"><i data-lucide="home"></i> Home</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <button class="nav-btn theme-btn"><i data-lucide="sun"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <h1 class="hero-title">Aníbal Ventura</h1>
+        <p class="hero-subtitle">Engenheiro de Software | Backend & Sistemas de Alto Desempenho</p>
+        <p class="hero-description">Desenvolvo sistemas escaláveis, APIs e soluções inteligentes impulsionadas por IA.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Ver Projetos &rarr;</a>
+          <a href="#contact" class="btn btn-secondary">Contacte-me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p class="about-bio">
+          Desenvolvedor de Software com foco em Backend, experiência em Node.js, TypeScript, JavaScript, Express, Prisma e PostgreSQL. Especializo-me na construção de APIs robustas, concepção de arquiteturas de bases de dados eficientes e desenvolvimento de sistemas escaláveis que resolvem problemas reais e entregam valor.
+        </p>
+        <div class="grid grid-3">
+          <div class="feature-card">
+            <div class="feature-icon"><i data-lucide="cpu"></i></div>
+            <h3 class="feature-title">Desempenho em Primeiro Lugar</h3>
+            <p class="feature-desc">Sistemas otimizados para oferecer rapidez e eficiência em escala.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i data-lucide="network"></i></div>
+            <h3 class="feature-title">Sistemas Distribuídos</h3>
+            <p class="feature-desc">Conhecimento em filas de mensagens, processamento assíncrono e microsserviços.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i data-lucide="terminal"></i></div>
+            <h3 class="feature-title">Resolução de Problemas</h3>
+            <p class="feature-desc">Pensamento analítico focado em soluções elegantes e de fácil manutenção.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Competências</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">Linguagens</h3>
+            <div class="tags-group">
+              <span class="tag">JavaScript</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Python</span>
+              <span class="tag">C-Sharp</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Frameworks &amp; Ferramentas</h3>
+            <div class="tags-group">
+              <span class="tag">Node.js</span>
+              <span class="tag">NestJS</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Prisma</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Systems &amp; Architecture</h3>
+            <div class="tags-group">
+              <span class="tag">REST APIs</span>
+              <span class="tag">MVC</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">Async Processing</span>
+              <span class="tag">Message Queues</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">Databases</h3>
+            <div class="tags-group">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Redis</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">DevOps</h3>
+            <div class="tags-group">
+              <span class="tag">Docker</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Nginx</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-project" class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Projeto em Destaque</h2>
+        <p class="section-subtitle">Desenvolvimento de sistemas web e soluções de e-commerce</p>
+
+        <div class="featured-card">
+          <div class="featured-info">
+            <h3 class="project-title">OverStyle — E-commerce Platform</h3>
+            <p class="project-desc">
+              Plataforma de e-commerce desenvolvida para simplificar a gestão
+      e comercialização de produtos.
+            </p>
+
+            <h4 class="sub-heading">Principais Funcionalidades</h4>
+            <ul class="timeline-list">
+              <li>Arquitetura escalável com suporte a pedidos de análise simultâneos</li>
+              <li>Pesquisa dinâmica de produtos (com FullText-Search)</li>
+              <li>API REST desenvolvida com Express.js para operações de alto desempenho</li>
+            </ul>
+
+            <h4 class="sub-heading">Technology Stack</h4>
+            <div class="tags-group">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Cloudinary</span>
+            </div>
+          </div>
+
+          <div class="featured-diagram">
+            <div class="diagram-mockup">
+              <div class="diagram-row">
+                <div class="diagram-box"><i data-lucide="terminal"></i></div>
+                <div class="diagram-bar"></div>
+              </div>
+              <div class="diagram-row">
+                <div class="diagram-box"><i data-lucide="database"></i></div>
+                <div class="diagram-bar"></div>
+              </div>
+              <div class="diagram-row">
+                <div class="diagram-box"><i data-lucide="cpu"></i></div>
+                <div class="diagram-bar"></div>
+              </div>
+            </div>
+            <p class="diagram-caption">Diagrama</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Outros Projetos</h2>
+        <div class="grid grid-2">
+          <div class="project-card">
+            <h3 class="project-card-title">Sistemas Web</h3>
+            <p class="project-card-desc">
+              Desenvolvimento de plataformas web e APIs personalizadas, com foco em desempenho, segurança e organização do código.
+            </p>
+            <div class="tags-group">
+              <span class="tag">Node.js</span>
+              <span class="tag">NestJS</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Prisma</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3 class="project-card-title">Plataforma de Gestão de Encomendas</h3>
+            <p class="project-card-desc">
+              Sistema para gestão de produtos, encomendas e inventário, com operações centralizadas e integração com serviços externos.
+            </p>
+            <div class="tags-group">
+              <span class="tag">NestJS</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Redis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="architecture-section">
+      <div class="container">
+        <h2 class="section-title">Como Desenvolvo Sistemas</h2>
+        <div class="vertical-timeline">
+          <div class="v-item">
+            <h3 class="v-title">Arquitetura Limpa</h3>
+            <p class="v-desc">Separação de responsabilidades, estrutura modular e código organizado para facilitar a manutenção e evolução dos projetos.</p>
+          </div>
+          <div class="v-item">
+            <h3 class="v-title">Desempenho em Primeiro Lugar</h3>
+            <p class="v-desc">Otimização em diferentes camadas, desde consultas à base de dados até à eficiência dos algoritmos.</p>
+          </div>
+          <div class="v-item">
+            <h3 class="v-title">Desenvolvimento Backend Escalável</h3>
+            <p class="v-desc">Construção de sistemas preparados para crescer, com estruturas organizadas e gestão eficiente de recursos.</p>
+          </div>
+          <div class="v-item">
+            <h3 class="v-title">Processamento Assíncrono &amp; Distribuído</h3>
+            <p class="v-desc">Utilização de processamento assíncrono e comunicação entre serviços para desenvolver aplicações mais eficientes e responsivas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container text-center">
+        <h2 class="cta-title">Vamos Construir Algo com Impacto</h2>
+        <p class="cta-subtitle">Aberto a novas oportunidades e colaborações.</p>
+
+        <div class="contact-links">
+          <a href="mailto:anydocarmoventura@gmail.com" class="btn btn-outline">
+            <i data-lucide="mail"></i> anydocarmoventura@gmail.com
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="btn btn-outline">
+            <i data-lucide="linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/anibal-ventura" target="_blank" class="btn btn-outline">
+            <i data-lucide="github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <p>&copy; 2026 Aníbal Ventura.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
